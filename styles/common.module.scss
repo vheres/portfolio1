@@ -1,4 +1,6 @@
 $primary-color: #5cd490;
+$primary-background: #2d2f33;
+$secondary-background: #25272b;
 
 .label {
     display: inline-flex;
@@ -10,4 +12,10 @@ $primary-color: #5cd490;
 .label.primary {
     background-color: $primary-color;
     color: #000;
+}
+
+.cardContainer {
+    padding: .25rem 1rem;
+    border-radius: .25rem;
+    background-color: $primary-background;
 }

@@ -1,3 +1,34 @@
+$primary-color: #5cd490;
+$primary-background: #2d2f33;
+$secondary-background: #222;
+
 .bannerContainer {
-    
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.bannerFooter {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5rem;
+}
+.overviewContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $secondary-background;
+  padding: 10rem;
+}
+.overviewContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.overviewAvatar {
+  width: 15vw;
 }
